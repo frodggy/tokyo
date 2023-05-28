@@ -75,7 +75,7 @@
             	:class "radial-bat-box"
 				:tooltip "Battery Capacity: ${battery-capacity}%"
 (radialmeter 	:value battery-capacity
-            	:text ""
+            	:text ""
             	:labelclass "bat-radial-label"
             	:class "bat-radial")
 		)
@@ -156,9 +156,9 @@
 		 	:space-evenly "false"
 			:halign "center"
 			:spacing 35
-			(button :class "btn_prev" :onclick "~/.config/eww/dashboard/scripts/music previous" "ﭣ")
+			(button :class "btn_prev" :onclick "~/.config/eww/dashboard/scripts/music previous" (""
 			(button :class "btn_play" :onclick "~/.config/eww/dashboard/scripts/music toggle" playpause)
-			(button :class "btn_next" :onclick "~/.config/eww/dashboard/scripts/music next" "ﭡ"))
+			(button :class "btn_next" :onclick "~/.config/eww/dashboard/scripts/music next" ((""
 	(box    :orientation "h"
 			:class "metric-player"
 			:space-evenly "false"
